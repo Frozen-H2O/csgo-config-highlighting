@@ -1,0 +1,31 @@
+{
+    "name": "csgo-map-config-highlighting",
+    "displayName": "CS:GO Map and Config Highlighting",
+    "description": "Highlights keywords in CS:GO's map and config files",
+    "version": "1.0.0",
+    "publisher": "Azashii",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "icon": "images/csgo-logo.png",
+    "categories": ["Programming Languages"],
+	"keywords": ["scripting","csgo","cfg","bsp","highlight","entwatch","Stripper","Stripper:Source"],
+    "license": "GNU General Public License (GPL) version 3",
+	"repository": "https://github.com/Frozen-H2O/csgo-config-highlighting",
+	"bugs": {
+		"url": "https://github.com/Frozen-H2O/csgo-config-highlighting/issues"
+	},
+    "contributes": {
+        "languages": [{
+            "id": "CSGO cfg",
+            "aliases": ["CS:GO bsp and cfg", "bsp", "cfg"],
+            "extensions": [".cfg", ".bsp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "CSGO cfg",
+            "scopeName": "source.bsp",
+            "path": "./syntaxes/bsp.tmLanguage.json"
+        }]
+    }
+}
