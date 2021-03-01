@@ -15,7 +15,11 @@ Provides syntax highlighting for .bsp and .cfg files stylized around the dark_pl
 
 ## Release Notes
 
-- Initial commit
+- Update comment Regex
+
+### 1.0.1
+
+- Update comment regex and allow for // to be detected in the middle of lines
 
 ### 1.0.0
 
