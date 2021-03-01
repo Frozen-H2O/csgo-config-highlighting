@@ -1,6 +1,6 @@
 # csgo-config-highlighting README
 
-This extension adds syntax highlighting for .bsp and .cfg files for the game Counter-Strike:Global Offensive with support for EntWatch,SourceMod, and Stripper:Source highlighting.
+This extension adds syntax highlighting for .bsp and .cfg files for the game Counter-Strike: Global Offensive with support for EntWatch, SourceMod, and Stripper:Source highlighting.
 
 ## Features
 
@@ -16,6 +16,10 @@ Provides syntax highlighting for .bsp and .cfg files stylized around the dark_pl
 ## Release Notes
 
 - Update comment Regex
+
+### 1.0.2
+- Update comment regex and allow for ; to be detected if there is only whitespace before it
+- Fix readme typos
 
 ### 1.0.1
 
