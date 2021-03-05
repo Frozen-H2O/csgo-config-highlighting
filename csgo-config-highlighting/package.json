@@ -2,7 +2,7 @@
     "name": "csgo-map-config-highlighting",
     "displayName": "CS:GO Map and Config Highlighting",
     "description": "Highlights keywords in CS:GO's map and config files",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "Azashii",
     "engines": {
         "vscode": "^1.26.0"

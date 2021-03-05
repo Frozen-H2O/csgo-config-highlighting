@@ -13,21 +13,10 @@ Provides syntax highlighting for .bsp and .cfg files stylized around the dark_pl
 - Does not have support for all entity Inputs and Outputs since I cannot find an extensive list of them other than their datamaps.
 - Scopes are set for coloration based on dark_plus.json them instead of what they are targetting, thus making using other themes or creating custom color themes harder
 
-## Release Notes
+## Latest Changelog
 
-- Update comment Regex
-
-### 1.0.2
 - Update comment regex and allow for ; to be detected if there is only whitespace before it
 - Fix readme typos
-
-### 1.0.1
-
-- Update comment regex and allow for // to be detected in the middle of lines
-
-### 1.0.0
-
-Initial release
 
 ### For more information
 

@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "csgo-config-highlighting" extension will be documented in this file.
+### 1.0.2
+- Update comment regex and allow for ; to be detected if there is only whitespace before it
+- Fix readme typos
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 1.0.1
 
-## [Unreleased]
+- Update comment regex and allow for // to be detected in the middle of lines
+
+### 1.0.0
 
 - Initial release
